@@ -17,4 +17,7 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+// Materialize CSS library adding
+app.import('bower_components/materialize/bin/materialize.js');
+app.import('bower_components/materialize/bin/materialize.css');
 module.exports = app.toTree();
